@@ -1,14 +1,14 @@
 # Movies-Analysis-TMBd
-Exploratory Data Analysis 
+**Exploratory Data Analysis 
 
-TMDb Movie Data Analysis: 
+**TMDb Movie Data Analysis: 
 
 This repository contains a Python script that performs data analysis on the TMDb (The Movie Database) movie dataset. The script uses the pandas and matplotlib libraries for data manipulation and visualization, respectively. The script is designed to clean the dataset and generate various insights and visualizations on the properties of the movies in the dataset.
 
-<br /> Data
-The dataset used in this analysis is the TMDb movie dataset, which can be downloaded from Kaggle. The dataset contains information on various aspects of movies such as budget, revenue, popularity, etc.
+**Data**: 
+<br /> The dataset used in this analysis is the TMDb movie dataset, which can be downloaded from Kaggle. The dataset contains information on various aspects of movies such as budget, revenue, popularity, etc.
 
-Requirements
+**Requirements:**
 The following libraries are required to run this script:
 
 pandas
@@ -22,7 +22,7 @@ pandas
 Then, Run the script by running the cells in the order they are presented. The script will output various visualizations and statistics as well as print statements to indicate the progress of the data cleaning and manipulation tasks.
 
 Note
-The script performs various data cleaning and manipulation tasks such as dropping undesired columns, dropping duplicates, renaming columns, and segregating the dataset into short and long films. The script also generates various visualizations and insights such as:
+<br /> cThe script performs various data cleaning and manipulation tasks such as dropping undesired columns, dropping duplicates, renaming columns, and segregating the dataset into short and long films. The script also generates various visualizations and insights such as:
 
 Number of movies produced over the years 1960-2015
 <br /> Production of drama vs comedy movies over the years 1960-2015
