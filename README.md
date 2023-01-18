@@ -1,8 +1,36 @@
 # Movies-Analysis-TMBd
 Exploratory Data Analysis 
 
-In contrast to my second project on data analysis, this project is a demonstration of not formal statistics but more of descriptive statistics which are used by businessmen to make more informed decisions. The entire data analysis process has been carried out inclusing- Data Wrangling, Data Cleaning and Exploratory Data Analysis. The data was cleaned keeping in mind the questions psed for investigation.
+TMDb Movie Data Analysis: 
 
-About the dataset: The dataset comprises details of over 10000 movies including budget, revenue, cast, genres and so on. Based on a few select features, trends were explored. For example, genres that have been most popular over the years and identifying feautures that have led to higher popularity of certain movies. Base on such analysis, a person who wants to create a movie can determine the key features that would lead to a higher popularity/ revenue.
+This repository contains a Python script that performs data analysis on the TMDb (The Movie Database) movie dataset. The script uses the pandas and matplotlib libraries for data manipulation and visualization, respectively. The script is designed to clean the dataset and generate various insights and visualizations on the properties of the movies in the dataset.
 
-This is, nonetheless, just one example of the great power of data science.
+<br /> Data
+The dataset used in this analysis is the TMDb movie dataset, which can be downloaded from Kaggle. The dataset contains information on various aspects of movies such as budget, revenue, popularity, etc.
+
+Requirements
+The following libraries are required to run this script:
+
+pandas
+<br /> numpy
+<br /> matplotlib
+<br /> seaborn
+<br /> Usage
+
+<br /> To use this script, you need to have the TMDb movie dataset in a csv file named tmdb_movies_data.csv in the same directory as the script.
+
+Then, Run the script by running the cells in the order they are presented. The script will output various visualizations and statistics as well as print statements to indicate the progress of the data cleaning and manipulation tasks.
+
+Note
+The script performs various data cleaning and manipulation tasks such as dropping undesired columns, dropping duplicates, renaming columns, and segregating the dataset into short and long films. The script also generates various visualizations and insights such as:
+
+Number of movies produced over the years 1960-2015
+<br /> Production of drama vs comedy movies over the years 1960-2015
+<br /> Budget as a measure of genres
+<br /> Popularity as a measure of genres
+<br /> Popularity as a measure of running time (short vs long films)
+<br /> Relationship between popularity and budget
+<br /> Relationship between revenue and profit
+<br /> Support
+
+In case of any issues or inquiries, please open an issue on this repository.
