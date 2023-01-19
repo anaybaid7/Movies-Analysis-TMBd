@@ -11,7 +11,7 @@ This repository contains a Python script that performs data analysis on the TMDb
 **Requirements:** 
 The following libraries are required to run this script:
 
-* pandas
+<br /> * pandas
 <br /> * numpy
 <br /> * matplotlib
 <br /> * seaborn
@@ -24,7 +24,7 @@ Then, Run the script by running the cells in the order they are presented. The s
 **Note**
 <br /> cThe script performs various data cleaning and manipulation tasks such as dropping undesired columns, dropping duplicates, renaming columns, and segregating the dataset into short and long films. The script also generates various visualizations and insights such as:
 
-Number of movies produced over the years 1960-2015
+<br /> * Number of movies produced over the years 1960-2015
 <br /> * Production of drama vs comedy movies over the years 1960-2015
 <br /> * Budget as a measure of genres
 <br /> * Popularity as a measure of genres
